@@ -7,7 +7,7 @@ bool checkRecord(string s)
     int countA = 0;
     int maxL = 0;
 
-    for (int i = 0; i < s.size(); i++)
+    for (int i = 0; i<s.size(); i++)
     {
         if (s[i] == 'A')
         {
